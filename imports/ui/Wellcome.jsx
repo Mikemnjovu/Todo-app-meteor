@@ -1,6 +1,8 @@
 import React from 'react';
+import { Meteor } from 'meteor/meteor';
 
-function Wellcome() {
+function Wellcome({ user }) {
+  //   console.log(props);
   return (
     <div className='app-bar'>
       <div className='app-header'>
